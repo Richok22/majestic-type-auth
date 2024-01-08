@@ -1,0 +1,157 @@
+:root {
+  --IntegratedFont: ProximaNova
+
+}
+
+@font-face {
+  font-family: ProximaNova;
+  src: url(~@/assets/fonts/ProximaNova-Regular.8bfd3474.woff);
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: ProximaNova;
+  src: url(~@/assets/fonts/ProximaNova-Semibold.fb2bb849.woff);
+  font-weight: 500;
+  font-display: swap
+}
+
+@font-face {
+  font-family: ProximaNova;
+  src: url(~@/assets/fonts/ProximaNova-Light.a02c78ad.woff);
+  font-weight: 100;
+  font-display: swap
+}
+
+@font-face {
+  font-family: ProximaNova;
+  src: url(~@/assets/fonts/ProximaNova-Bold.2b66d58a.woff);
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: ProximaNova;
+  src: url(~@/assets/fonts/ProximaNova-Extrabld.8a0e4f6c.woff);
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap
+}
+
+
+* {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                 not supported by any browser */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+p, label {
+  color: #fff;
+  font-family: var(--IntegratedFont),sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  margin-top: 1.042vw;
+}
+
+h2 {
+  color: #fff;
+  font-family: var(--IntegratedFont),sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+
+input {
+  font-family: var(--IntegratedFont),sans-serif;
+  margin-top: 10px;
+  border-radius: 6px;
+  width: 100%;
+  height: 50px;
+  background-color: #161717;
+  border:none;
+  background-image:none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+}
+
+input[type=checkbox] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  background-color: #ffffff1a;
+  cursor: pointer;
+  vertical-align: middle;
+  margin-top:-3px ;
+}
+
+input[type=checkbox]:checked {
+  background-image: url('img/checkmark-16.ico'); /* Replace with your image URL */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+::placeholder {
+  color: #828081;
+  text-align: center;
+}
+
+input, select, textarea{
+  font-weight: 400;
+  font-family: ProximaNova, sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+textarea:focus, input:focus {
+  font-weight: 400;
+  font-family: ProximaNova, sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+button {
+  font-family: var(--IntegratedFont),sans-serif;
+  margin-top: 20px;
+  margin-right: 5px;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 13px;
+  color: #777776;
+  width: 23.8888888889vh;
+  height: 50px;
+  background-color: #292828;
+  border-radius: 0.2777777778vh;
+  border-radius: 0.7407407407vh;
+  cursor: pointer;
+  text-align: center;
+  z-index: 3;
+  border: none;
+  padding: 0;
+  border: none;
+  outline: none;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #ac0046;
+  color: #fff;
+}
