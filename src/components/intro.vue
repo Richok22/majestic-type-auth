@@ -34,11 +34,6 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-/* Your existing styles */
-</style>
-
 <style scoped>
 * {
   box-sizing: border-box;
