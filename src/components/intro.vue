@@ -25,7 +25,7 @@ export default {
         animateP.value = true;
         setTimeout(() => {
           visible.value = false;
-          props.onAnimationFinished(); // Emit the event directly
+          props.onAnimationFinished();
         }, 1000);
       }
     };
