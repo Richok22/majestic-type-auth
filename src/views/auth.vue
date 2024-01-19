@@ -81,14 +81,21 @@
       </div>
     </div>
   </div>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8fcb3449419c3401b43597f6b57b331bd8fc567e
 </template>
 
 <script>
 import Intro from '@/components/intro.vue';
 import {ref, watch} from 'vue';
 import {useAuthStore} from '@/stores/Authstores.js';
+<<<<<<< HEAD
 import router from "@/routes/routes.js";
+=======
+
+>>>>>>> 8fcb3449419c3401b43597f6b57b331bd8fc567e
 
 export default {
   watch: {
@@ -176,7 +183,11 @@ export default {
       }
 
       if (Object.keys(this.errors).length === 0) {
+<<<<<<< HEAD
         this.$router.push("/chooseMenu")
+=======
+
+>>>>>>> 8fcb3449419c3401b43597f6b57b331bd8fc567e
       }
     },
 
@@ -210,7 +221,11 @@ export default {
       }
 
       if (Object.keys(this.errors).length === 0) {
+<<<<<<< HEAD
         this.$router.push("/chooseMenu")
+=======
+
+>>>>>>> 8fcb3449419c3401b43597f6b57b331bd8fc567e
       }
     },
 
@@ -322,7 +337,11 @@ h2 {
   justify-content: center;
   align-items: center;
   text-align: center;
+<<<<<<< HEAD
   min-height: 40vh;
+=======
+  min-height: 50vh;
+>>>>>>> 8fcb3449419c3401b43597f6b57b331bd8fc567e
   max-height: 100vh;
   background-color: #1e1f1f;
   width: 60vh;
@@ -340,12 +359,20 @@ h2 {
 
 .auth-container.small {
   /* Styles for when activeTab is not 2 */
+<<<<<<< HEAD
   min-height: 40vh;
+=======
+  min-height: 50vh;
+>>>>>>> 8fcb3449419c3401b43597f6b57b331bd8fc567e
   max-height: 100vh;
 }
 
 .auth-container.large {
+<<<<<<< HEAD
   min-height: 75vh; /* Adjust as needed */
+=======
+  min-height: 82vh; /* Adjust as needed */
+>>>>>>> 8fcb3449419c3401b43597f6b57b331bd8fc567e
   max-height: none;
 }
 
