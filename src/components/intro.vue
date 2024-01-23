@@ -25,11 +25,7 @@ export default {
         animateP.value = true;
         setTimeout(() => {
           visible.value = false;
-<<<<<<< HEAD
           props.onAnimationFinished(); // Emit the event directly
-=======
-          props.onAnimationFinished();
->>>>>>> 8fcb3449419c3401b43597f6b57b331bd8fc567e
         }, 1000);
       }
     };
@@ -38,7 +34,7 @@ export default {
   },
 };
 </script>
-<<<<<<< HEAD
+
 
 <style scoped>
 /* Your existing styles */
