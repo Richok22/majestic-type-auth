@@ -3,12 +3,15 @@ import "/src/assets/main.css"
 import { createApp } from 'vue';
 import { createPinia } from 'pinia'
 import App from './App.vue';
-import router from '/src/routes/routes.js'
+import { createRouter, createWebHashHistory } from 'vue-router';
+import { routes } from './routes/routes.js';
 
 const pinia = createPinia();
 
-import { createRouter, createWebHashHistory } from 'vue-router';
-import { routes } from './routes/routes.js';
+const router = createRouter({
+    history: createWebHashHistory(),
+    routes,
+});
 
 const app = createApp(App);
 app.use(pinia);
