@@ -87,7 +87,7 @@
 <script>
 import Intro from '@/components/intro.vue';
 import {ref, watch} from 'vue';
-import {useAuthStore} from '@/stores/Authstores.js';
+import {useAuthStore} from '@/stores/authStores.js';
 import router from "@/routes/routes.js";
 
 
